@@ -1,0 +1,16 @@
+[proxy]
+
+[proxy.a]
+name="web1"
+path=http://localhost:9091
+weight=3
+
+[proxy.b]
+name="web2"
+path=http://localhost:9092
+weight=1
+
+[proxy.c]
+name="web3"
+path=http://localhost:9093
+weight=1
